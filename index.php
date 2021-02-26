@@ -66,10 +66,10 @@
 </head>
 <body>
 
-  <?php for ($i = 0; $i < count($array); $i++) { ?>
-          <h2> <?php echo $array[$i]["title"]; ?> </h2>
-    <?php for ($i = 0; $i < count($text); $i++) {
-            echo $text($i);
+  <?php foreach ($array as $section) { ?>
+          <h2> <?php echo $section; ?> </h2>
+    <?php foreach ($text as $paragraf) {
+            echo $paragraf;
           }
         } ?>
 
