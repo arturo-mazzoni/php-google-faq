@@ -21,7 +21,7 @@
       ]
     ],
     [
-      "title" => "Why is my account associated with a country?"
+      "title" => "Why is my account associated with a country?",
       "text" => [
         "<p>Your account is associated with a country (or territory) in the Terms of Service so that we can determine two things:</p>",
         "<ol>
@@ -65,6 +65,10 @@
   <title>Document</title>
 </head>
 <body>
+
+  <?php for ($i = 0; $i < count($array); $i++) { ?>
+          <h2> <?php echo $array[$i]["title"] ?> </h2>
+  <?php } ?>
 
 </body>
 </html>
