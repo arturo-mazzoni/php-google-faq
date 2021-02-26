@@ -68,8 +68,8 @@
 
   <?php foreach ($array as $section) { ?>
           <h2> <?php echo $section; ?> </h2>
-    <?php foreach ($text as $paragraf) {
-            echo $paragraf;
+    <?php foreach ($text as $k => $paragraf) {
+            echo $k;
           }
         } ?>
 
