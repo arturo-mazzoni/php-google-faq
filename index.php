@@ -23,7 +23,14 @@
     [
       "title" => "Why is my account associated with a country?"
       "text" => [
-        ""
+        "<p>Your account is associated with a country (or territory) in the Terms of Service so that we can determine two things:</p>",
+        "<ol>
+          <li>The Google affiliate that provides the services, that processes your information, and that is responsible for complying with applicable privacy laws. Generally, Google offers its consumer services through either of two companies:
+            <ul>
+              <li></li>
+              <li></li>
+            </ul>
+          </li>"
       ]
     ],
     [
