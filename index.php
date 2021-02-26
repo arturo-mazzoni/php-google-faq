@@ -67,8 +67,11 @@
 <body>
 
   <?php for ($i = 0; $i < count($array); $i++) { ?>
-          <h2> <?php echo $array[$i]["title"] ?> </h2>
-  <?php } ?>
+          <h2> <?php echo $array[$i]["title"]; ?> </h2>
+    <?php for ($i = 0; $i < count($text); $i++) {
+            echo $text($i);
+          }
+        } ?>
 
 </body>
 </html>
